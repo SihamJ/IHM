@@ -15,9 +15,9 @@ class details : public QDialog
     Q_OBJECT
 
 public:
-    explicit details(QWidget *parent = nullptr);
+    explicit details(QWidget *parent = nullptr, int mode = 0);
     ~details();
-    void set_chart(int i, QString titre);
+    void set_chart(int k, QString titre);
     void handle_connections();
 
 public slots:

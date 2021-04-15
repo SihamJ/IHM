@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>600</height>
+    <width>1300</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,43 +16,70 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>560</y>
-     <width>306</width>
-     <height>31</height>
+     <x>940</x>
+     <y>579</y>
+     <width>271</width>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_3">
     <item>
-     <widget class="QPushButton" name="ca_bours">
-      <property name="text">
-       <string>CA</string>
-      </property>
-      <property name="icon">
-       <iconset resource="ressource.qrc">
-        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QPushButton" name="vol_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Volume</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
       </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ca_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pourc_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Pourcentage</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
       </property>
      </widget>
     </item>
@@ -61,10 +88,10 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>354</x>
-     <y>560</y>
-     <width>306</width>
-     <height>31</height>
+     <x>510</x>
+     <y>579</y>
+     <width>281</width>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -73,34 +100,61 @@
     </property>
     <item>
      <widget class="QPushButton" name="vol_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Volume</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
       </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="ca_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>CA</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
       </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pourc_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Pourcentage</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
       </property>
      </widget>
     </item>
@@ -109,10 +163,10 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>560</y>
-     <width>306</width>
-     <height>31</height>
+     <x>90</x>
+     <y>579</y>
+     <width>281</width>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -121,34 +175,61 @@
       <property name="enabled">
        <bool>true</bool>
       </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Volume</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
       </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="ca_banq">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>CA</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
       </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pourc_banq">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
-       <string>Pourcentage</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="ressource.qrc">
         <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
       </property>
      </widget>
     </item>
@@ -157,13 +238,13 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>60</x>
      <y>120</y>
      <width>291</width>
-     <height>101</height>
+     <height>119</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0">
+   <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0">
     <property name="spacing">
      <number>7</number>
     </property>
@@ -266,12 +347,52 @@
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>Date</string>
+         <string>Date début</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QDateEdit" name="dateEdit"/>
+       <widget class="QDateEdit" name="date"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Résultats sur:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="duree">
+        <item>
+         <property name="text">
+          <string>1 Journée</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Semaine</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Mois</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Année</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10 Ans</string>
+         </property>
+        </item>
+       </widget>
       </item>
      </layout>
     </item>
@@ -280,10 +401,10 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>20</x>
      <y>10</y>
      <width>201</width>
-     <height>51</height>
+     <height>61</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,3">
@@ -298,11 +419,11 @@
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="username">
       <property name="font">
        <font>
         <family>MS PGothic</family>
-        <pointsize>11</pointsize>
+        <pointsize>14</pointsize>
        </font>
       </property>
       <property name="toolTip">
@@ -321,13 +442,32 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>550</x>
      <y>20</y>
      <width>191</width>
-     <height>161</height>
+     <height>211</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_5" stretch="1,3,1">
+   <layout class="QVBoxLayout" name="verticalLayout_5" stretch="0,1,0,1">
+    <item>
+     <widget class="QLabel" name="nom_agence_2">
+      <property name="font">
+       <font>
+        <family>MS PGothic</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>BNR BANK</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QLabel" name="nom_agence">
       <property name="font">
@@ -340,7 +480,7 @@
        </font>
       </property>
       <property name="text">
-       <string>BNR</string>
+       <string>Toutes Agences</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -378,14 +518,17 @@
   <widget class="QPushButton" name="elargir_bq">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>270</y>
-     <width>81</width>
+     <x>380</x>
+     <y>269</y>
+     <width>31</width>
      <height>28</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="text">
-    <string>Elargir</string>
+    <string/>
    </property>
    <property name="icon">
     <iconset resource="ressource.qrc">
@@ -395,14 +538,17 @@
   <widget class="QPushButton" name="elargir_assur">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>270</y>
-     <width>81</width>
+     <x>800</x>
+     <y>269</y>
+     <width>31</width>
      <height>28</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="text">
-    <string>Elargir</string>
+    <string/>
    </property>
    <property name="icon">
     <iconset resource="ressource.qrc">
@@ -412,47 +558,194 @@
   <widget class="QPushButton" name="elargir_bours">
    <property name="geometry">
     <rect>
-     <x>890</x>
-     <y>270</y>
-     <width>81</width>
+     <x>1220</x>
+     <y>268</y>
+     <width>31</width>
      <height>28</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="text">
-    <string>Elargir</string>
+    <string/>
    </property>
    <property name="icon">
     <iconset resource="ressource.qrc">
      <normaloff>:/assets/elargir_white.png</normaloff>:/assets/elargir_white.png</iconset>
    </property>
   </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>630</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>630</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>629</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>630</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>630</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>629</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>629</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1044</x>
+     <y>630</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>944</x>
+     <y>630</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <widget class="QtCharts::QChartView" name="produit_bours">
    <property name="geometry">
     <rect>
-     <x>680</x>
-     <y>250</y>
-     <width>311</width>
-     <height>301</height>
+     <x>880</x>
+     <y>249</y>
+     <width>391</width>
+     <height>331</height>
     </rect>
    </property>
   </widget>
   <widget class="QtCharts::QChartView" name="produit_assur">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>250</y>
-     <width>321</width>
-     <height>301</height>
+     <x>450</x>
+     <y>249</y>
+     <width>401</width>
+     <height>331</height>
     </rect>
    </property>
   </widget>
   <widget class="QtCharts::QChartView" name="produit_bq">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>250</y>
-     <width>311</width>
-     <height>301</height>
+     <x>30</x>
+     <y>249</y>
+     <width>401</width>
+     <height>331</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -475,6 +768,17 @@
   <zorder>elargir_bq</zorder>
   <zorder>elargir_assur</zorder>
   <zorder>elargir_bours</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>duree</zorder>
+  <zorder>label_4</zorder>
  </widget>
  <customwidgets>
   <customwidget>

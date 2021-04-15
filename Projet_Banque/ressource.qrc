@@ -3,12 +3,14 @@
         <file>elargir_dark.png</file>
         <file>elargir_white.png</file>
         <file>menu.png</file>
-        <file>pic.png</file>
         <file>pdp.png</file>
         <file>logo.png</file>
         <file>darkmode.png</file>
         <file>ca.png</file>
         <file>pourc.png</file>
         <file>vol.png</file>
+        <file>pic.png</file>
+        <file>pret.png</file>
+        <file>principale.png</file>
     </qresource>
 </RCC>

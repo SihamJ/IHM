@@ -12,7 +12,7 @@ class Guide : public QDialog
     Q_OBJECT
 
 public:
-    explicit Guide(QWidget *parent = nullptr);
+    explicit Guide(QWidget *parent = nullptr, int mode=0);
     ~Guide();
 
 private:

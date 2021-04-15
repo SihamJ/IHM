@@ -12,7 +12,7 @@ class Banquier : public QWidget
     Q_OBJECT
 
 public:
-    explicit Banquier(QWidget *parent = nullptr, QString name = nullptr, QString agence = nullptr);
+    explicit Banquier(QWidget *parent = nullptr, QString name = nullptr, QString agence = nullptr, int mode = 0);
     ~Banquier();
     void set_up_ui();
     void handle_connections();

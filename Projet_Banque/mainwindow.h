@@ -27,8 +27,9 @@ private:
 
 public slots:
     void vue_pret();
-    void vue_banquier();
-    void vue_principale();
+    void vue_banquier(int mode);
+    void vue_principale(int mode);
     void guide();
+    void connection();
 };
 #endif // MAINWINDOW_H

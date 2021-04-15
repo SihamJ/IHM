@@ -10,12 +10,16 @@
 #include <QBarCategoryAxis>
 #include <QValueAxis>
 
-details::details(QWidget *parent) :
+int darkmode_d = 0;
+
+details::details(QWidget *parent, int mode):
     QDialog(parent),
     ui(new Ui::details)
 {
+    darkmode_d = mode;
     ui->setupUi(this);
     set_chart(0,"Volume en Euros");
+    handle_connections();
     volume();
 }
 
@@ -36,34 +40,68 @@ void details::pourcentage()
 
 void details::set_chart(int i, QString titre)
 {
-    QBarSet *set1 = new QBarSet(titre);
+    QBarSet *set0 = new QBarSet("Prêts");
+    QBarSet *set1 = new QBarSet("Comptes");
+    QBarSet *set2 = new QBarSet("Chequiers");
+    QBarSet *set3 = new QBarSet("Cartes");
 
-    *set1 << (i+1)*2 << (i+1)*4;
+    int range(0);
 
-    QBarSeries *series_assur = new QBarSeries();
-        series_assur->append(set1);
-    QChart *assur = new QChart();
-        assur->addSeries(series_assur);
-        assur->setTitle("Produit d'assurance");
-        assur->setAnimationOptions(QChart::SeriesAnimations);
+    // CA
+    if(i==1)
+        range = 50;
+    // Volume ou pourcentage
+    else
+        range = 100;
 
-   QStringList categories_assur;
-        categories_assur << "Vélo" << "Ordi";
-        QBarCategoryAxis *axisX_assur = new QBarCategoryAxis();
-        axisX_assur->append(categories_assur);
-        assur->addAxis(axisX_assur, Qt::AlignBottom);
-        series_assur->attachAxis(axisX_assur);
+    int pret = rand()%range;
+    int comptes = rand()%range;
+    int chequiers = rand()%range;
+    int cartes = rand()%range;
 
-   QValueAxis *axisY_assur = new QValueAxis();
-        axisY_assur->setRange(0,(i+1)*5);
-        assur->addAxis(axisY_assur, Qt::AlignLeft);
-        series_assur->attachAxis(axisY_assur);
+    *set0 << pret;
+    *set1 << comptes;
+    *set2 << chequiers;
+    *set3 << cartes;
 
-        assur->legend()->setVisible(true);
-        assur->legend()->setAlignment(Qt::AlignBottom);
+    QBarSeries *series_bq = new QBarSeries();
+        series_bq->append(set0);
+        series_bq->append(set1);
+        series_bq->append(set2);
+        series_bq->append(set3);
 
-       ui->graphe_agrandi->setChart(assur);
+    QChart *bq = new QChart();
+        bq->addSeries(series_bq);
+        bq->setTitle("Produits Bancaires");
+        bq->setAnimationOptions(QChart::SeriesAnimations);
+
+   QStringList categories_bq;
+        categories_bq << titre ;
+        QBarCategoryAxis *axisX_bq = new QBarCategoryAxis();
+        axisX_bq->append(categories_bq);
+        bq->addAxis(axisX_bq, Qt::AlignBottom);
+        series_bq->attachAxis(axisX_bq);
+
+   QValueAxis *axisY_bq = new QValueAxis();
+        axisY_bq->setRange(0,range);
+        bq->addAxis(axisY_bq, Qt::AlignLeft);
+        series_bq->attachAxis(axisY_bq);
+
+        bq->legend()->setVisible(true);
+        bq->legend()->setAlignment(Qt::AlignBottom);
+        if(!darkmode_d)
+            bq->setBackgroundBrush(QBrush(QColor("transparent")));
+       ui->graphe_agrandi->setChart(bq);
        ui->graphe_agrandi->setRenderHint(QPainter::Antialiasing);
+
+       QChart::ChartTheme theme;
+       if(darkmode_d)
+           theme = static_cast<QChart::ChartTheme>(1);
+       else
+           theme = static_cast<QChart::ChartTheme>(0);
+
+       ui->graphe_agrandi->chart()->setTheme(theme);
+       QPalette pal = window()->palette();
 }
 
 void details::handle_connections()

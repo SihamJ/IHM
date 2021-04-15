@@ -16,7 +16,7 @@ class principale : public QWidget
     Q_OBJECT
 
 public:
-    explicit principale(QWidget *parent = nullptr);
+    explicit principale(QWidget *parent = nullptr, int mode = 0);
     ~principale();
     void handle_connections();
     void set_up_ui();

@@ -15,21 +15,27 @@ connection::connection(QWidget *parent) :
 void connection::handle_connections()
 {
     QObject::connect( ui->login_button, &QPushButton::released, this, &connection::login );
-
 }
 
 void connection::login()
 {
-    //Président
+    // Président
     if(QString::compare(ui->login_input->text(), "président")==0 && QString::compare(ui->pass_input->text(), "")==0)
         this->done(2);
-    //Banquier
+
+    // Banquier 1
     else if(QString::compare(ui->login_input->text(), "banquier")==0 && QString::compare(ui->pass_input->text(), "")==0)
         this->done(3);
-    //Président
-    else if(QString::compare(ui->login_input->text(), "")==0 && QString::compare(ui->pass_input->text(), "")==0)
+
+    // Banquier 2
+    else if(QString::compare(ui->login_input->text(), "banquier2")==0 && QString::compare(ui->pass_input->text(), "")==0)
         this->done(4);
-    //Incorrecte
+
+    // Pas de choix = Président
+    else if(QString::compare(ui->login_input->text(), "")==0 && QString::compare(ui->pass_input->text(), "")==0)
+        this->done(5);
+
+    // Autre choix = erreur login out mot de passe incorrecte
     else{
         ui->instructions->setText("Login ou Mot de passe incorrecte!");
         ui->instructions->setStyleSheet("QLabel { color : red; }");
