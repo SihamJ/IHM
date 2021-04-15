@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>details</class>
+ <widget class="QDialog" name="details">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QtCharts::QChartView" name="graphe_agrandi">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>691</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>224</x>
+     <y>500</y>
+     <width>306</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0">
+    <item>
+     <widget class="QPushButton" name="vol_agrandi">
+      <property name="text">
+       <string>Volume</string>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ca_agrandi">
+      <property name="text">
+       <string>CA</string>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pourcentage_agrandi">
+      <property name="text">
+       <string>Pourcentage</string>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtCharts::QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qtcharts/qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

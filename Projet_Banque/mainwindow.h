@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QtCharts>
 #include <QtCharts/QChartView>
+#include "pret.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,13 +16,19 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
-    void handle_connections();
     ~MainWindow();
+    void toolbar();
+    void color_mode();
+    void set_role(int i);
+    void set_vue();
 
 private:
     Ui::MainWindow *ui;
 
-
-
+public slots:
+    void vue_pret();
+    void vue_banquier();
+    void vue_principale();
+    void guide();
 };
 #endif // MAINWINDOW_H
