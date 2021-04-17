@@ -176,49 +176,11 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>1100</x>
-     <y>10</y>
-     <width>191</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="3,0">
-    <property name="spacing">
-     <number>12</number>
-    </property>
-    <item>
-     <widget class="QLabel" name="username">
-      <property name="font">
-       <font>
-        <family>MS PGothic</family>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>ALEX MOOR</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="pdp">
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;img src=&quot;:/assets/pic.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QWidget" name="layoutWidget_4">
    <property name="geometry">
     <rect>
      <x>970</x>
-     <y>320</y>
+     <y>360</y>
      <width>191</width>
      <height>181</height>
     </rect>
@@ -404,6 +366,91 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>30</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/assets/pret.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>30</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>FAMILLE PRÊTS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>340</y>
+     <width>191</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pdp">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/assets/pic.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
   <zorder>layoutWidget</zorder>
   <zorder>chart_pret</zorder>
   <zorder>layoutWidget_2</zorder>
@@ -412,6 +459,10 @@
   <zorder>label_8</zorder>
   <zorder>label_9</zorder>
   <zorder>label_10</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>pdp</zorder>
  </widget>
  <customwidgets>
   <customwidget>

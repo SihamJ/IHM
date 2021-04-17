@@ -121,11 +121,33 @@ void pret::pret_chart(int i, const QString titre)
             autop->append(7, rand()%range);
         autop->setName("Auto");
 
+     /*   QLineSeries *chequiers = new QLineSeries();
+        chequiers->append(0, rand()%range);
+            chequiers->append(1, rand()%range);
+            chequiers->append(2, rand()%range);
+            chequiers->append(3, rand()%range);
+            chequiers->append(4, rand()%range);
+            chequiers->append(5, rand()%range);
+            chequiers->append(6, rand()%range);
+            chequiers->append(7, rand()%range);
+        autop->setName("Chéquiers");
+
+        QLineSeries *cartes = new QLineSeries();
+        cartes->append(0, rand()%range);
+            cartes->append(1, rand()%range);
+            cartes->append(2, rand()%range);
+            cartes->append(3, rand()%range);
+            cartes->append(4, rand()%range);
+            cartes->append(5, rand()%range);
+            cartes->append(6, rand()%range);
+            cartes->append(7, rand()%range);
+        autop->setName("Cartes");*/
 
         QChart *chart = new QChart();
             chart->legend()->hide();
             chart->addSeries(habitation);
             chart->addSeries(autop);
+       //     chart->addSeries(chequiers);
             chart->createDefaultAxes();
             chart->setTitle(titre);
             if(!darkmode_p)

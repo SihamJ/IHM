@@ -101,7 +101,6 @@ void details::set_chart(int i, QString titre)
            theme = static_cast<QChart::ChartTheme>(0);
 
        ui->graphe_agrandi->chart()->setTheme(theme);
-       QPalette pal = window()->palette();
 }
 
 void details::handle_connections()

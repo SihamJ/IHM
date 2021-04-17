@@ -27,13 +27,13 @@ void connection::login()
     else if(QString::compare(ui->login_input->text(), "banquier")==0 && QString::compare(ui->pass_input->text(), "")==0)
         this->done(3);
 
-    // Banquier 2
-    else if(QString::compare(ui->login_input->text(), "banquier2")==0 && QString::compare(ui->pass_input->text(), "")==0)
+    // Agence
+    else if(QString::compare(ui->login_input->text(), "agence")==0 && QString::compare(ui->pass_input->text(), "")==0)
         this->done(4);
 
     // Pas de choix = Président
     else if(QString::compare(ui->login_input->text(), "")==0 && QString::compare(ui->pass_input->text(), "")==0)
-        this->done(5);
+        this->done(2);
 
     // Autre choix = erreur login out mot de passe incorrecte
     else{

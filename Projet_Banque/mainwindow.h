@@ -21,6 +21,7 @@ public:
     void color_mode();
     void set_role(int i);
     void set_vue();
+    void set_mode();
 
 private:
     Ui::MainWindow *ui;
@@ -31,5 +32,6 @@ public slots:
     void vue_principale(int mode);
     void guide();
     void connection();
+    void vue_bancaire();
 };
 #endif // MAINWINDOW_H

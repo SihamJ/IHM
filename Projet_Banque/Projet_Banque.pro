@@ -10,6 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     banquier.cpp \
+    canal_bancaire.cpp \
     connection.cpp \
     details.cpp \
     guide.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
 
 HEADERS += \
     banquier.h \
+    canal_bancaire.h \
     connection.h \
     details.h \
     guide.h \
@@ -31,6 +33,7 @@ HEADERS += \
 
 FORMS += \
     banquier.ui \
+    canal_bancaire.ui \
     connection.ui \
     details.ui \
     guide.ui \

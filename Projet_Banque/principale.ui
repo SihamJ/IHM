@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>940</x>
-     <y>579</y>
+     <y>609</y>
      <width>271</width>
      <height>41</height>
     </rect>
@@ -88,8 +88,8 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>579</y>
+     <x>516</x>
+     <y>609</y>
      <width>281</width>
      <height>41</height>
     </rect>
@@ -164,7 +164,7 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>579</y>
+     <y>609</y>
      <width>281</width>
      <height>41</height>
     </rect>
@@ -238,8 +238,8 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>120</y>
+     <x>30</x>
+     <y>100</y>
      <width>291</width>
      <height>119</height>
     </rect>
@@ -401,50 +401,9 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>201</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,3">
-    <property name="spacing">
-     <number>12</number>
-    </property>
-    <item>
-     <widget class="QLabel" name="pdp">
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/assets/pic.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="username">
-      <property name="font">
-       <font>
-        <family>MS PGothic</family>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="toolTip">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-      <property name="text">
-       <string>ALEX MOOR</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget">
-   <property name="geometry">
-    <rect>
      <x>550</x>
-     <y>20</y>
-     <width>191</width>
+     <y>30</y>
+     <width>201</width>
      <height>211</height>
     </rect>
    </property>
@@ -519,7 +478,7 @@
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>269</y>
+     <y>290</y>
      <width>31</width>
      <height>28</height>
     </rect>
@@ -539,7 +498,7 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>269</y>
+     <y>290</y>
      <width>31</width>
      <height>28</height>
     </rect>
@@ -558,8 +517,8 @@
   <widget class="QPushButton" name="elargir_bours">
    <property name="geometry">
     <rect>
-     <x>1220</x>
-     <y>268</y>
+     <x>1210</x>
+     <y>289</y>
      <width>31</width>
      <height>28</height>
     </rect>
@@ -579,7 +538,7 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>630</y>
+     <y>660</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -595,7 +554,7 @@
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>630</y>
+     <y>660</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -611,7 +570,7 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>629</y>
+     <y>659</y>
      <width>91</width>
      <height>16</height>
     </rect>
@@ -626,8 +585,8 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>514</x>
-     <y>630</y>
+     <x>520</x>
+     <y>660</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -642,8 +601,8 @@
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>610</x>
-     <y>630</y>
+     <x>616</x>
+     <y>660</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -658,8 +617,8 @@
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>710</x>
-     <y>629</y>
+     <x>716</x>
+     <y>659</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -675,7 +634,7 @@
    <property name="geometry">
     <rect>
      <x>1130</x>
-     <y>629</y>
+     <y>659</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -691,7 +650,7 @@
    <property name="geometry">
     <rect>
      <x>1044</x>
-     <y>630</y>
+     <y>660</y>
      <width>71</width>
      <height>16</height>
     </rect>
@@ -707,7 +666,7 @@
    <property name="geometry">
     <rect>
      <x>944</x>
-     <y>630</y>
+     <y>660</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -722,43 +681,166 @@
   <widget class="QtCharts::QChartView" name="produit_bours">
    <property name="geometry">
     <rect>
-     <x>880</x>
-     <y>249</y>
-     <width>391</width>
+     <x>890</x>
+     <y>270</y>
+     <width>371</width>
      <height>331</height>
     </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
    </property>
   </widget>
   <widget class="QtCharts::QChartView" name="produit_assur">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>249</y>
-     <width>401</width>
+     <x>470</x>
+     <y>270</y>
+     <width>381</width>
      <height>331</height>
     </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
    </property>
   </widget>
   <widget class="QtCharts::QChartView" name="produit_bq">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>249</y>
-     <width>401</width>
+     <x>40</x>
+     <y>270</y>
+     <width>391</width>
      <height>331</height>
     </rect>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>70</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/assets/principale.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>80</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>PAGE PRINCIPALE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>20</y>
+     <width>221</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pdp">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>20</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/assets/pic.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <zorder>produit_bours</zorder>
   <zorder>produit_assur</zorder>
   <zorder>produit_bq</zorder>
-  <zorder>layoutWidget</zorder>
   <zorder>layoutWidget</zorder>
   <zorder>layoutWidget</zorder>
   <zorder>layoutWidget</zorder>
@@ -777,8 +859,9 @@
   <zorder>label_14</zorder>
   <zorder>label_15</zorder>
   <zorder>label_16</zorder>
-  <zorder>duree</zorder>
-  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
  </widget>
  <customwidgets>
   <customwidget>

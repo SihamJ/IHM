@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>canal_bancaire</class>
+ <widget class="QWidget" name="canal_bancaire">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>659</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="elargir_assur">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>290</y>
+     <width>31</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="ressource.qrc">
+     <normaloff>:/assets/elargir_white.png</normaloff>:/assets/elargir_white.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>660</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="elargir_bours">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>290</y>
+     <width>31</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="ressource.qrc">
+     <normaloff>:/assets/elargir_white.png</normaloff>:/assets/elargir_white.png</iconset>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>30</y>
+     <width>201</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,1,0,1">
+    <item>
+     <widget class="QLabel" name="nom_agence_3">
+      <property name="font">
+       <font>
+        <family>MS PGothic</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>BNR BANK</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="nom_agence">
+      <property name="font">
+       <font>
+        <family>MS PGothic</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Toutes Agences</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="image">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/assets/logo.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="nom_banquier">
+      <property name="font">
+       <font>
+        <family>MS PGothic</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>660</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QtCharts::QChartView" name="produit_bours">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>270</y>
+     <width>371</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>660</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>609</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_9">
+    <item>
+     <widget class="QPushButton" name="vol_banq">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ca_banq">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pourc_banq">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>291</width>
+     <height>119</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_7" stretch="0,0,0,0">
+    <property name="spacing">
+     <number>7</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <property name="spacing">
+       <number>7</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Agence</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="agence">
+        <item>
+         <property name="text">
+          <string>Toutes Agences</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Brest</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mulhouse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Marseille</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Paris</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Strasbourg</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Banquier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="banquier">
+        <item>
+         <property name="text">
+          <string>Tous Banquiers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ahmed Benmoussa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Alexandre Maurice</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Alice Benarfa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yanis Moujab</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Date début</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="date"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Résultats sur:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="duree">
+        <item>
+         <property name="text">
+          <string>1 Journée</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Semaine</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Mois</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1 Année</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10 Ans</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>660</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>659</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>609</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_14">
+    <property name="spacing">
+     <number>7</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="vol_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ca_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pourc_assur">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QtCharts::QChartView" name="produit_bq">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>391</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>660</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QtCharts::QChartView" name="produit_assur">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>270</y>
+     <width>381</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1126</x>
+     <y>659</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pourcentage</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="elargir_bq">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>31</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="ressource.qrc">
+     <normaloff>:/assets/elargir_white.png</normaloff>:/assets/elargir_white.png</iconset>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>610</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_16">
+    <item>
+     <widget class="QPushButton" name="vol_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/vol.png</normaloff>:/assets/vol.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ca_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/ca.png</normaloff>:/assets/ca.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pourc_bours">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="ressource.qrc">
+        <normaloff>:/assets/pourc.png</normaloff>:/assets/pourc.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>660</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>70</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>CANAL BANCAIRE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>70</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/assets/bancaire.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>20</y>
+     <width>201</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pdp">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/assets/pic.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>produit_bours</zorder>
+  <zorder>produit_assur</zorder>
+  <zorder>label_13</zorder>
+  <zorder>elargir_assur</zorder>
+  <zorder>label_16</zorder>
+  <zorder>elargir_bours</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_9</zorder>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>layoutWidget_3</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_10</zorder>
+  <zorder>layoutWidget_4</zorder>
+  <zorder>layoutWidget_5</zorder>
+  <zorder>produit_bq</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_14</zorder>
+  <zorder>elargir_bq</zorder>
+  <zorder>layoutWidget_6</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_18</zorder>
+  <zorder>pdp</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtCharts::QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qtcharts/qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

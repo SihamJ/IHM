@@ -536,7 +536,7 @@
     <rect>
      <x>20</x>
      <y>10</y>
-     <width>281</width>
+     <width>291</width>
      <height>51</height>
     </rect>
    </property>
@@ -550,7 +550,7 @@
     <string>MES PERFORMANCES</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -616,9 +616,90 @@
     </item>
    </layout>
   </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>30</y>
+     <width>171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>70</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>PAGE PRINCIPALE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>60</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Malgun Gothic</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/assets/principale.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
   <zorder>produit_bours</zorder>
   <zorder>produit_assur</zorder>
-  <zorder>layoutWidget_2</zorder>
   <zorder>layoutWidget_4</zorder>
   <zorder>elargir_assur</zorder>
   <zorder>produit_bq</zorder>
@@ -636,9 +717,10 @@
   <zorder>label_9</zorder>
   <zorder>label_16</zorder>
   <zorder>label_11</zorder>
-  <zorder>layoutWidget_5</zorder>
-  <zorder>layoutWidget_5</zorder>
   <zorder>label</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_5</zorder>
  </widget>
  <customwidgets>
   <customwidget>

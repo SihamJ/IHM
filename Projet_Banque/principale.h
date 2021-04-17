@@ -5,7 +5,6 @@
 #include <QtCharts>
 #include <QtCharts/QChartView>
 #include <QWidget>
-#include "mainwindow.h"
 
 namespace Ui {
 class principale;
