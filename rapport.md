@@ -86,19 +86,19 @@ Pour des contraintes techniques et des contraintes de temps, les fonctionalités
 --------
 Page principale / Canal Bancaire
 -----
- ![Wireframe 2](./2.png)  
+ ![Wireframe 2](./wireframe/2.png)  
 
 
-![Wireframe 3](./3.png)
+![Wireframe 3](./wireframe/3.png)
 
 ***
 Famille prêts
 ------
-![Wireframe 4](./4.png)
+![Wireframe 4](./wireframe/4.png)
 ***
 Menu Déroulant
 ------
-![Wireframe 1](./1.png)
+![Wireframe 1](./wireframe/1.png)
 
 ***
 *Conception sur PhotoShop*
@@ -106,19 +106,19 @@ Menu Déroulant
 
 Page Principale / Canal Bancaire
 -----
-![Wireframe 5](./5.png)  
+![Wireframe 5](./wireframe/5.png)  
 
 ***
 Famille prêts
 ------
-![Wireframe 6](./6.png)
+![Wireframe 6](./wireframe/6.png)
 
 ***
 Menu Déroulant
 -----
 *NB: j'ai choisis des icones aléatoires, elles devront biensur être travaillées aussi*  
 
-![Wireframe 7](./7.png)   
+![Wireframe 7](./wireframe/7.png)   
 
 ***
 
