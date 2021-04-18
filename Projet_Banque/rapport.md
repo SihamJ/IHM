@@ -21,15 +21,15 @@ La réunion avec le directeur de la banque a donné lieu à la spécification qu
 ### __Guide d'utilisation de l'Interface__   
 L'application se lance sur une fenêtre de connexion.   
 
-*Pour démarrer sur la session du président:*  
+*Pour démarrer la session du président:*  
 - Login: **président**  
 - Mot-de-passe: (vide)  
 
-*Pour démarrer sur la session du banquier:*  
+*Pour démarrer la session du banquier:*  
 - Login: **banquier**   
 - Mot-de-passe: (vide)  
 
-*Pour démarrer sur la session d'une agence:*
+*Pour démarrer la session d'une agence:*
 - Login: **agence**
 - Mot-de-passe: (vide)    
 
